@@ -24,10 +24,6 @@ class Block{
         else{
 
           World.remove(world, this.body);
-          //World.remove(world, this.image);
-          // World.add(world, this.body);
-          // World.destroy(world, this.body);
-          
           push();
           
           //this.visiblity = 255;

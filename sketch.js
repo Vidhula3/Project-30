@@ -77,7 +77,7 @@ function draw() {
   fill("white");
   textSize(20);
   fill("lightyellow");
-  text("Drag the polygon to destroy the blocks",250,40);
+  text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
 
   ground.display();
   stand1.display();
@@ -132,9 +132,6 @@ function mouseReleased(){
 }
 
 function keyPressed(){
-  //if(keyCode === 20)
-  //if(keyCode === 22)
-  //if(keyCode === 30)
   if(keyCode === 32)
   {
       slingShot.attach(this.ball);
